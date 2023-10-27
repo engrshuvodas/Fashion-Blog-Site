@@ -1,0 +1,41 @@
+#list-items {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+    #list-items img {
+        height: 15vw;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    #list-items img {
+        height: 100%;
+        width: 100%;
+    }
+}
+.card { 
+    margin-bottom: 20px;
+ }
+ #top span {
+    font-style: italic;
+    font-weight: 400;
+    color: #CBF0A5;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #top h2 {
+    text-transform: uppercase;
+    color: #CBF0A5;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #top {
+    padding: 50px;
+    background-image: url(../images/shop-bg.png)
+  }
+  #top .inner-content{
+      text-align: center;
+  }
